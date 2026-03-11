@@ -1,4 +1,4 @@
-package Service;
+package com.example.oop_hallbooking.Service;
 
 import org.springframework.stereotype.Service;
 
@@ -6,9 +6,10 @@ import org.springframework.stereotype.Service;
 public class LoginService {
     private String name;
     private String email;
+    private String dob;
+    private String password;
 
-    public LoginService(String name) {
-        this.name = name;
-        this.email = email;
-    }
+
+
+
 }
