@@ -1,6 +1,8 @@
 package com.example.oop_hallbooking.Model;
 
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,8 +15,12 @@ import java.sql.Time;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
+
 public class Reservation {
 
+    @Id
+    private Long id;
     private long reservationId;
     @NotBlank
     private int time;
@@ -23,6 +29,6 @@ public class Reservation {
     @NotBlank
     private String sport;
     @NotBlank
-    private User user;
+    private String user;
 
 }
