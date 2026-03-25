@@ -19,7 +19,7 @@ public class LoginController {
         return "Hello " + name + "!";
     }
 
-    @GetMapping("/Email/")
+    @GetMapping("/Email")
     public String getEmail(@PathVariable String email) {
         return "Email: " + email;
     }
@@ -30,8 +30,8 @@ public class LoginController {
     }
 
     @GetMapping("/Pass")
-    public String getPass(@PathVariable String pass) {
-        return "Password: " + pass;
+    public String getPass(@PathVariable String password) {
+        return "Password: " + password;
     }
 
 }
