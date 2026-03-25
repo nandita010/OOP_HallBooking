@@ -1,0 +1,9 @@
+2026-03-25 14:21:28.398238Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, [*]user varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, user varchar(255) not null, primary key (id)) [42001-240]
+2026-03-25 14:34:12.342308Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, [*]user varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, user varchar(255) not null, primary key (id)) [42001-240]
+2026-03-25 14:36:05.876795Z jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, [*]user varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table login (id bigint not null, date varchar(255) not null, reservation_id bigint not null, sport varchar(255) not null, time integer not null, user varchar(255) not null, primary key (id)) [42001-240]
